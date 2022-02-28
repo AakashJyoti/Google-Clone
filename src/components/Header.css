@@ -1,0 +1,57 @@
+.header {
+  height: 3.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 1rem;
+}
+
+.rightSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0.6rem;
+}
+
+.leftSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.rightSection a,
+.leftSection a {
+  margin-right:  0.6rem;
+  transition: 300ms cubic-bezier(0.215, 0.61, 0.355, 1);
+  padding-bottom: 2px;
+}
+
+.leftSection a:hover,
+.rightSection a:hover {
+  border-bottom: 1px solid black;
+}
+
+a {
+  color: #434343;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.square {
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-right: 0.6rem;
+  color: #434343;
+  cursor: pointer;
+}
+
+.profilePicContainer {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  color: #434343;
+  cursor: pointer;
+}

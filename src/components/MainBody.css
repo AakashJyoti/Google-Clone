@@ -1,0 +1,41 @@
+.body {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.bodyWraper {
+  margin-top: 9rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex: 0%;
+}
+
+.textContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text {
+  font-size: 90%;
+  color: blue;
+  cursor: pointer;
+}
+
+#textOne {
+  margin: 8px;
+  text-decoration: underline;
+}
+
+.textTwo {
+  margin: 2px;
+}
